@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('https://1.bp.blogspot.com/-8AiRX018UTw/XGso00jrLmI/AAAAAAAACns/HNNdVUOD5UkaIfRWMD5AsZ5OJN0qzbYywCKgBGAs/w1600-h900-p-k-no-nu/sunrise-nature-lake-mountain-scenery-4K-149.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+
+    width: 400px;
+    height: 600px;
+    MARGIN-top: 50px;
+    gap: 5px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 20px navy;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.add{
+    margin-left: 40px;
+    height: 30px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+}
+
+.add-button{
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.list-box{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-top: 20px;
+    color: navy;
+    background-color: rgb(255, 255, 255, 0.5);
+
+}
+
+
