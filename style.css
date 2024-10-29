@@ -36,4 +36,19 @@ body {
   margin-top: 20px;
   color: navy;
   background-color: rgb(255, 255, 255, 0.5);
+  width: 20rem;
+}
+
+li {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+.remove-btn {
+  grid-column: 2;
+  border-radius: 1rem;
+  background-color: transparent;
+  border-color: red;
+  color: red;
 }
